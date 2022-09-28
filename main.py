@@ -134,16 +134,28 @@ print(my_bool)
 # are not found in the sentence below, and store the result (a boolean) in a variable called my_bool:
 
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
+text = "When something is important enough, you do it even if the odds are against you" 
 word1 = "success"
 word2 = "technology"
-my_bool = 
-
+my_bool = (word1 in text) and (word2 in text) 
+print(my_bool)
 
 
 ########################################decision making in python#####################################
-
-
-
+#lesson
+# if 5 == 2:
+#   print("its is correct")
+# else:
+#   print("it is not correct")
+pet = "rabbit"
+if pet == "cat":
+  print("you have a cat")
+elif pet == "dog":
+  print("you have a dog")
+elif pet == "fish":
+  print("you have a fish")
+else: 
+  print("I don't know what animal you have")
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
 
